@@ -12,6 +12,10 @@
 
 <link rel="stylesheet" href="styles.css">
 
+<!-- Bootstrap CSS --> 
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+
 </head>
 
 <body>
@@ -20,23 +24,63 @@
 
 <h1>SUBJECT PROFILE</h1>
 
-<nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
 
-<a href="index.html"><button>Case Summary</button></a> |
+        <div class="container"> 
 
-<a href="about.html"><button>Subject Profile</button></a> |
+            <a class="navbar-brand" href="index.html">Case Report</a> 
 
-<a href="contact.html"><button>Timeline</button></a> |
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
 
-<a href="inventory.html"><button>Evidence Inventory</button></a> | 
+                <span class="navbar-toggler-icon"></span> 
 
-<a href="systemlogs.html"><button>Recovered Logs</button></a> |
+            </button> 
 
-</nav>
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+
+                <ul class="navbar-nav"> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="index.html"><button class="btn btn-outline-light">Case Summary</button></a> 
+
+                    </li> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="about.html"><button class="btn btn-outline-light">Subject Profile</button></a> 
+
+                    </li> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="contact.html"><button class="btn btn-outline-light">Timeline</button></a> 
+
+                    </li> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="inventory.html"><button class="btn btn-outline-light">Evidence Inventory</button></a>
+
+                    </li>
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="systemlogs.html"><button class="btn btn-outline-light">Recovered Logs</button></a>
+
+                    </li>
+
+                </ul> 
+
+            </div> 
+
+        </div> 
+
+    </nav> 
 
 </header>
 
-<main>
+<main class="container my-5">
     <h2>PSYCHOLOGICAL REPORT</h2>
 
 <p><strong>Report Prepared by:</strong> Behavioral Analysis Unit - NYC Division<br><b>Analyst:</b> Dr. Emily Carter, Ph.D. in Clinical Psychology<br><b>Date of Report:</b> February 15, 2026<br><b>Case Number:</b> MP-O26-JX<br><b>Authority:</b>New York Police Department,Missing Persons Division</p>
@@ -54,6 +98,7 @@
 <P>Environmental analysis of subject's residence and workspace reveals a highly controlled and organized environment. Resticted-access areas, secure storage conpartments, and specialized technical equipmentsuggest intensive private project engagement indicating prioritized project confidentiality and personal workspace integrity about convectional domestic routines.</P>
 
 <p>Deliveries to the residence include unmarked packages containing unknown technical materials, and digital activity logs reveal extensive encrypted files and unusal late-night operational patterns. Overall, the combined profile potrays a subject of extraordinary techncal capability, intense focus, and strict personal organization with the conclusion that the sunject has potential exposure to unforseen risk prior to disappearance.</p>
+
 </main>
 
 
@@ -62,6 +107,12 @@
 <p>&copy; 2026 JESSICAH MMOLOKE</p>
 
 </footer>
+
+<!-- Bootstrap JS and dependencies --> 
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
 
 </body>
 
