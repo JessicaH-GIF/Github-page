@@ -20,5 +20,12 @@ img{
 
 h1{
     text-align: center;
-    color: red;
+    color: rgb(81, 7, 7);
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(download\ \(8\).jpg);
 }
